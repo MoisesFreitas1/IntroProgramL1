@@ -1,0 +1,5 @@
+print("Produtos notáveis")
+a = float(input("a: "))
+b = float(input("b: "))
+pn = pow((a+b),2)*pow((a-b),2)
+print("((a+b)^2)*((a-b)^2) = %.0f"%pn)

@@ -1,0 +1,5 @@
+print("Prestação atrasada")
+prestacao = float(input("Valor original da prestação: R$ "))
+dias = int(input("Dias de atraso: "))
+novaprestacao = prestacao*pow(1.003181,dias)
+print("Nova prestação: R$ %.2f"%novaprestacao)
